@@ -1,0 +1,43 @@
+   Padding(
+                padding: const EdgeInsets.all(16.0),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceAround,
+                  children: [
+                    Column(
+                      children: [
+                        Icon(Icons.water_drop, color: Colors.blue,),
+                        SizedBox(height: 8,),
+                        Text('Humidity'),
+                        SizedBox(height: 4,),
+                        Text('60%'),
+                      ],
+                    ),
+                    Column(
+                      children: [
+                        Icon(Icons.air, color: Colors.grey,),
+                        SizedBox(height: 8,),
+                        Text('Wind'),
+                        SizedBox(height: 4,),
+                        Text('15 km/h'),
+                      ],
+                    ),
+                    Column(
+                      children: [
+                        Icon(Icons.thermostat, color: Colors.red,),
+                        SizedBox(height: 8,),
+                        Text('Pressure'),
+                        SizedBox(height: 4,),
+                        Text('1015 hPa'),
+                      ],
+                    ),
+                  ],
+                ),
+              ),
+
+
+
+               ListTile(
+                leading: Icon(Icons.wb_sunny, size: 50, color: Colors.orange,),
+                title: Text('San Francisco', style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),),
+                subtitle: Text('Sunny, 25°C', style: TextStyle(fontSize: 18),),
+              ),
