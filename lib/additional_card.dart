@@ -14,9 +14,13 @@ class AdditionalItem extends StatelessWidget {
                       children: [
                         Icon(Icons, color:color,),
                         SizedBox(height: 8,),
-                        Text(Texts),
+                        Text(Texts,style: TextStyle(
+                          fontFamily: "Aclonica",
+                        ),),
                         SizedBox(height: 4,),
-                        Text(value),
+                        Text(value,style: TextStyle(
+                          fontFamily: "Aclonica",
+                        ),),
                       ],
           );
   }

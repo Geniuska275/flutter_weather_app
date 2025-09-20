@@ -20,11 +20,16 @@ class HourlyItemCard extends StatelessWidget {
                         padding: const EdgeInsets.all(8.0),
                         child: Column(
                           children: [
-                            Text(time, style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),),
+                            Text(time, style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold,
+                        fontFamily: "Aclonica",
+                            ),),
                             const SizedBox(height: 8,),
                             Icon(Icons, size: 32, color:color),
                             const SizedBox(height: 8,),
-                            Text(temp),
+                            Text(temp, style: TextStyle(
+                        fontFamily: "Aclonica",
+
+                            ),),
                           ],
                           
                         ),
