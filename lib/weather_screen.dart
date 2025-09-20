@@ -21,7 +21,7 @@ class _WeatherScreenState extends State<WeatherScreen> {
   @override
   void initState() {
     super.initState();
-    // fetchWeatherData();
+    fetchWeatherData();
     getLocation();
   }
 
